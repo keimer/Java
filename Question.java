@@ -10,10 +10,14 @@ public class Question {
 	private String[] options = new String[3];
 	
 
-	public Question(short i, char k, String d){
+	public Question(short i, char k, String d, String[] o){
 		id = i;
 		key = k;
 		description = d;
+		for (i=0; i < o.length; i++)
+		{
+			options[i] = o[i];
+		}
 	} 
 
 	public void setDescription(String d){
