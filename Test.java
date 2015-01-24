@@ -8,7 +8,7 @@ public class Test {
 		
 		active = 0;
 		for (i=0; i < questions.length; i++){
-			questions[i] = new Question(active,'a',"description to question 1");
+			questions[i] = new Question(active,'a',"What is a Java package and how is it used?");
 			active++;
 		}
 		active = 0;

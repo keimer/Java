@@ -7,6 +7,8 @@ public class Question {
 	private short id;	
 	private char key;
 	private String description;
+	private String[] options = new String[3];
+	
 
 	public Question(short i, char k, String d){
 		id = i;
