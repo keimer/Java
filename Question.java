@@ -7,16 +7,17 @@ public class Question {
 	private short id;	
 	private char key;
 	private String description;
-	private String[] options = new String[3];
+	private String[] options = new String[4];
 	
 
 	public Question(short i, char k, String d, String[] o){
 		id = i;
 		key = k;
 		description = d;
-		for (i=0; i < o.length; i++)
+
+		for (int j=0; j < 4; j++)
 		{
-			options[i] = o[i];
+			options[j] = o[j];
 		}
 	} 
 
