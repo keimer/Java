@@ -64,7 +64,7 @@ public class CreateTextFile
 				if ( record.getAccount() > 0 )
 				{
 					// write new record
-					output.format( "%d %s %s %.2f\n", record.getAccount(),
+					output.format( "%d\t%s\t%s\t%.2f\n", record.getAccount(),
 					record.getFirstName(), record.getLastName(),
 					record.getBalance() );
 				} // end if
